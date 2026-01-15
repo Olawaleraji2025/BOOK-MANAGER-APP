@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Manager</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Remeber to delete this -->
-    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main>
@@ -66,38 +64,6 @@
                         </form>
                     </div>
                     
-                    <!-- Stats Section -->
-                    <!-- <div class="card stats-card">
-                        <h2>Your Stats</h2>
-                        <div id="statsContainer">
-                            <div class="stat-row">
-                                <span>Total Books:</span>
-                                <span id="totalBooks" class="stat-value">0</span>
-                            </div>
-                            <div class="stat-row">
-                                <span>Average Rating:</span>
-                                <span id="avgRating" class="stat-value">0</span>
-                            </div>
-                            <div class="stat-grid">
-                                <div class="stat-box stat-want">
-                                    <div class="stat-number" id="wantToReadCount">0</div>
-                                    <div class="stat-label">Want to read</div>
-                                </div>
-                                <div class="stat-box stat-reading">
-                                    <div class="stat-number" id="readingCount">0</div>
-                                    <div class="stat-label">Reading</div>
-                                </div>
-                                <div class="stat-box stat-read">
-                                    <div class="stat-number" id="readCount">0</div>
-                                    <div class="stat-label">Read</div>
-                                </div>
-                                <div class="stat-box stat-dropped">
-                                    <div class="stat-number" id="droppedCount">0</div>
-                                    <div class="stat-label">Dropped</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
                 
                 <!-- Books Display -->
@@ -109,15 +75,15 @@
                             <div class="header-controls">
                                 <div class="search-box">
                                     <input type="text" id="searchInput" placeholder="Search books...">
-                                    <i data-feather="search" class="search-icon"></i>
+                                    
                                 </div>
                                 
                                 <div class="view-toggle">
                                     <button id="gridViewBtn" class="view-btn active">
-                                        <i data-feather="grid"></i>
+                                        <i class="fa-solid fa-grip"></i>
                                     </button>
                                     <button id="listViewBtn" class="view-btn">
-                                        <i data-feather="list"></i>
+                                        <i class="fa-solid fa-list"></i>
                                     </button>
                                 </div>
                             </div>
@@ -266,7 +232,6 @@
 
     </main>
     
-    <script src="myscript.js"></script>
-    <!-- <script src="main.js"></script> -->
+    <script src="script.js"></script>
 </body>
 </html>

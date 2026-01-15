@@ -302,7 +302,6 @@ const sampleBooks = [
       localStorage.setItem("books", JSON.stringify(sampleBooks));
     }
     
-feather.replace();
 
   // This Add book and Form submission functionality is being called here
 addBookForm.addEventListener("submit", handleAddBook);
@@ -457,8 +456,6 @@ function handleAddBook(e) {
       renderListView(filteredBooks);
     }
 
-    // Re-initialize Feather Icons for newly rendered elements
-    feather.replace();
   }
 
    // This functionality will displays books in grid view
@@ -479,10 +476,10 @@ function handleAddBook(e) {
                         <h3>${book.title}</h3>
                         <div class="book-actions">
                             <button onclick="openEditModal('${book.id}')">
-                                <i data-feather="edit-2"></i>
+                                <i class="fa-regular fa-pen-to-square"></i>
                             </button>
                             <button onclick="openDeleteModal('${book.id}')">
-                                <i data-feather="trash-2"></i>
+                                <i class="fa-solid fa-trash"></i>
                             </button>
                         </div>
                     </div>
@@ -561,19 +558,19 @@ function handleAddBook(e) {
       }</span>
                 </td>
                 <td>
-                    <div class="notes-content notes-collapsed" style="max-width: 300px;">${
-                      book.notes || "—"
-                    }</div>
+                    <div class="notes-content notes-collapsed" style="width: 100%;">
+                      <p>${book.notes || "—"}</p> 
+                    </div>
                     
                 </td>
                 <td>
                     <div class="list-actions">
                         
                         <button onclick="openEditModal('${book.id}')">
-                            <i data-feather="edit-2"></i>
+                            <i class="fa-regular fa-pen-to-square"></i>
                         </button>
                         <button onclick="openDeleteModal('${book.id}')">
-                            <i data-feather="trash-2"></i>
+                            <i class="fa-solid fa-trash"></i>
                         </button>
                     </div>
                 </td>
