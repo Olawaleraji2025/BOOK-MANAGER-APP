@@ -1,4 +1,4 @@
-# OOK COLLECTION MANAGER APP
+# BOOK COLLECTION MANAGER APP
 
 Hey there! Welcome to **Book Manager**, your friendly companion for keeping track of all those amazing books you're reading, planning to read, or maybe even the ones you decided to drop. Whether you're a casual reader or a bookworm, this little web app is here to help you stay organized without any problem.
 
