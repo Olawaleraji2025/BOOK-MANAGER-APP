@@ -21,3 +21,5 @@ Hey there! Welcome to **Book Manager**, your friendly companion for keeping trac
 - **HTML**: Structures the page and forms
 - **CSS**: Handles all the styling, animations, and responsive magic
 - **JavaScript**: Powers the interactivity, data management, and local storage
+
+Here is the live project: https://book-manager-006.netlify.app
